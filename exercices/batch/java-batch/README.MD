@@ -12,10 +12,11 @@ and code, such as:
 - Heritage;
 - File handling;
 
+#### Project folders
 
-    src -> The source code where we will implement the code. Only a Main class is given, from where the process must be started;
-    input -> Folder with the input content that will be read by the batch;
-    output -> Folder where we will write the output content;
+- src - The source code where we will implement the code. Only a Main class is given, from where the process must be started;
+- input -Folder with the input content that will be read by the batch;
+- output - Folder where we will write the output content;
 
 ### Exercise 1
 
@@ -23,7 +24,7 @@ In the input folder, there are two .csv files(hWich can be read by MS Excel for 
 a list of dogs info: ID, Name, Chip number, Mom Chip Number, Dad Chip Number.
 
 1. Write code that can read the files (both of them!) from the input folder and output it to console;
-2. Output the whole List to a single file in the output folder;
+2. Output the whole List to a single file in the output folder; (**Bonus:** order by ID)
 
 Hints:
 - Object orientation is heavily recommended (another way to say it: A MUST HAVE!!!);
